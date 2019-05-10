@@ -1,0 +1,70 @@
+.mogo {
+
+  &__devices {
+
+    background-image: url('../images/Unique-design-bg.jpg');
+    .mogo {
+
+      &__design {
+
+        text-align: center;
+        padding: 5rem 0 0 0;
+
+        .titledevices {
+
+          color: #333333;
+          font-family: 'Kaushan Script', cursive;
+          font-size: 24px;
+        }
+
+        .textdisegn {
+
+          color: #333333;
+          font-size: 30px;
+          font-weight: 900;
+          text-transform: uppercase;
+        }
+
+        .linedesingn {
+
+          background: #f38181;
+          height: 3px;
+          margin: 0 auto;
+          margin-top: 3rem;
+          margin-bottom: 3rem;
+          width: 60px;
+        }
+
+        .designbox {
+
+          position: relative;
+
+          @media only screen and (max-width: 370px) {
+
+            width: 70%;
+            margin: 0 auto;
+          }
+
+          .imgtablet {
+
+            position: relative;
+          }
+
+          .cellphone {
+
+            position: absolute;
+            top: 34%;
+            right: 17%;
+
+            @media only screen and (max-width: 370px) {
+
+              width: 55%;
+              top: 40%;
+              right: -55px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

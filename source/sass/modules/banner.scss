@@ -1,0 +1,187 @@
+.mogo {
+
+  &__banner {
+
+    align-items: center;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+
+    @media only screen and (max-width: 768px) {
+
+      height: 800px;
+    }
+
+    @media only screen and (max-width: 370px) {
+
+      height: 600px;
+    }
+
+    &--slide1 {
+
+      background-image: url(../images/banner_mogo.jpg);
+
+    }
+    &--slide2 {
+
+      background-image: url(../images/banner_mogo2.jpg);
+    }
+    &--slide3 {
+
+      background-image: url(../images/banner_mogo3.jpg);
+    }
+
+    &__container {
+
+      margin: 0 auto;
+      text-align: center;
+      width: 75%;
+    }
+
+    .contenttext {
+
+      .titlesmall {
+
+        font-size: 72px;
+        color: #fff;
+        font-family: 'Kaushan Script', cursive;
+        padding: 0 0 15px;
+
+        @media only screen and (max-width: 370px) {
+
+          font-size: 34px;
+        }
+
+        @media only screen and (max-width: 320px) {
+
+          font-size: 30px;
+        }
+      }
+
+      .titlebig {
+
+        color: #fff;
+        font-weight: 900;
+        font-size: 150px;
+        line-height: 1;
+        padding: 0 0 4rem;
+        text-transform: uppercase;
+
+        @media only screen and (max-width: 1200px) {
+
+          font-size: 130px;
+        }
+
+        @media only screen and (max-width: 768px) {
+
+          font-size: 100px;
+        }
+
+        @media only screen and (max-width: 370px) {
+
+          font-size: 50px;
+          padding: 0 0 2rem;
+        }
+
+        @media only screen and (max-width: 320px) {
+
+          font-size: 40px;
+        }
+      }
+
+      .line {
+
+        background-color: #fff;
+        height: 3px;
+        margin: 0 auto;
+        width: 70px;
+      }
+
+      .btnmore {
+
+        padding: 4rem 0 0;
+
+        @media only screen and (max-width: 370px) {
+
+          padding: 3rem 0 0;
+        }
+
+        .linkbtn {
+
+          border: 2px solid #fff;
+          color: #fff;
+          cursor: pointer;
+          font-size: 14px;
+          font-weight: 700;
+          text-transform: uppercase;
+          padding: 8px 25px;
+        }
+      }
+    }
+  }
+}
+
+.sliders {
+
+  .slick-dots {
+
+    bottom: 50px;
+
+    li {
+
+      height: 3px;
+      margin: 0 30px;
+      width: 258px;
+
+      @media only screen and (max-width: 768px) {
+
+        width: 130px;
+      }
+
+      @media only screen and (max-width: 480px) {
+
+        width: 90px;
+      }
+
+      @media only screen and (max-width: 370px) {
+
+        width: 25px;
+      }
+
+      .slick-active {
+
+        background: #e98283;
+      }
+
+      button {
+
+        background: #ffffff;
+        height: 3px;
+        padding: 0;
+        width: 258px;
+
+        @media only screen and (max-width: 768px) {
+
+          width: 130px;
+        }
+
+        @media only screen and (max-width: 480px) {
+
+          width: 90px;
+        }
+
+        @media only screen and (max-width: 370px) {
+
+          width: 60px;
+        }
+
+        &::before {
+
+          display: none;
+        }
+      }
+    }
+  }
+}

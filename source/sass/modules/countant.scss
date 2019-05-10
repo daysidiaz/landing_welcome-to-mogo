@@ -1,0 +1,65 @@
+.mogocountant {
+
+  background: #95e1d3;
+  width: 100%;
+
+  .mogo {
+
+    &__countant {
+
+      color: #fff;
+      border-left: 1px solid #ffffff52;
+      border-right: 1px solid #ffffff52;
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+
+      @media only screen and (max-width: 370px) {
+
+        display: block;
+        margin: 0 auto;
+        width: 65%;
+        border-left: none;
+        border-right: none;
+      }
+
+      .textnumber {
+
+        font-size: 72px;
+        font-weight: 900;
+      }
+
+      .textdescription {
+
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+    }
+
+    &__boxcountant {
+
+      max-width: 240px;
+      padding: 5rem 0;
+      width: 100%;
+
+      @media only screen and (max-width: 370px) {
+
+        padding: 2rem 0;
+        border-bottom: 1px solid #ffffff52;
+      }
+
+      &--borderbox {
+
+        border-left: 1px solid #ffffff52;
+        border-right: 1px solid #ffffff52;
+
+        @media only screen and (max-width: 370px) {
+
+          border-left: none;
+          border-right: none;
+        }
+      }
+    }
+  }
+}

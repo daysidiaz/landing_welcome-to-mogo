@@ -1,0 +1,33 @@
+@import "globals/normalize";
+@import "globals/variables";
+@import "globals/typography";
+@import "globals/mixins";
+@import "globals/global";
+
+@import "extras/scrollbar";
+@import "extras/selection";
+@import "extras/keyframes";
+@import "extras/slick";
+@import "extras/slick-theme";
+
+#mogo {
+
+  @import "modules/layout";
+  @import "modules/header";
+  @import "modules/banner";
+  @import "modules/aboutus";
+  @import "modules/countant";
+  @import "modules/services";
+  @import "modules/devices";
+  @import "modules/service";
+  @import "modules/teamcarrousel";
+  @import "modules/ourteam";
+  @import "modules/brands";
+  @import "modules/galery";
+  @import "modules/testimony";
+  @import "modules/clients";
+  @import "modules/blog";
+  @import "modules/map";
+  @import "modules/footer";
+}
+

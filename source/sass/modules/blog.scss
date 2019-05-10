@@ -1,0 +1,172 @@
+.mogo {
+
+  &__blog {
+
+    text-align: center;
+
+    &__container {
+
+      padding: 5rem 0;
+    }
+
+    .titleblog {
+
+      color: #000;
+      font-family: 'Kaushan Script', cursive;
+      font-size: 25px;
+    }
+
+    .titlestory {
+
+      color: #000;
+      font-size: 30px;
+      font-weight: 900;
+      padding: 1rem 0 3rem;
+      text-transform: uppercase;
+    }
+
+    .lineblog {
+
+      background-color: #f38181;
+      height: 3px;
+      margin: 0 auto;
+      width: 60px;
+    }
+
+    .textblog {
+
+      color: #999;
+      font-size: 15px;
+      margin: 0 auto;
+      padding: 3rem 0 0;
+      width: 80%;
+    }
+
+    &__box {
+
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 0 7rem;
+
+      @media only screen and (max-width: 1024px) {
+
+        align-items: end;
+        justify-content: space-around;
+      }
+
+      @media only screen and (max-width: 370px) {
+
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+        padding: 0;
+      }
+
+      .contentbox {
+
+        max-width: 380px;
+        width: 100%;
+
+        @media only screen and (max-width: 1024px) {
+
+          max-width: 300px;
+        }
+      }
+
+      .blogbox {
+
+        position: relative;
+
+        .imagesbox {
+
+          position: relative;
+        }
+
+        &__date {
+
+          background: #95e1d3;
+          bottom: 10px;
+          box-sizing: border-box;
+          height: 70px;
+          left: -10px;
+          padding: 10px;
+          position: absolute;
+          text-align: center;
+          width: 60px;
+
+          .textday {
+
+            color: #fff;
+            font-size: 30px;
+            font-weight: 900;
+            text-transform: uppercase;
+            line-height: 1;
+          }
+
+          .textmont {
+
+            color: #ffffff;
+            font-size: 15px;
+            font-style: italic;
+          }
+        }
+      }
+      .description {
+
+        padding: 0 0 20px;
+        text-align: left;
+
+        @media only screen and (max-width: 370px) {
+
+          padding: 0 0 40px;
+        }
+
+        .texttopic {
+
+          color: #333333;
+          font-size: 14px;
+          font-weight: 900;
+          text-transform: uppercase;
+          padding: 20px 0;
+        }
+
+        .textconcept {
+
+          border-bottom: 1px #e5e5e5 solid;
+          color: #999999;
+          font-size: 15px;
+          line-height: 1.5;
+          padding: 0 0 20px;
+        }
+
+        .contador {
+
+          display: flex;
+          justify-content: space-between;
+          padding: 15px 0;
+          width: 30%;
+
+          @media only screen and (max-width: 1024px) {
+
+            width: 36%;
+          }
+        }
+
+        i {
+
+          color: #95e1d3;
+          font-size: 17px;
+        }
+
+        span {
+
+          color: #999999;
+          font-size: 15px;
+          font-style: italic;
+          padding: 0 0 0 6px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+.mogo {
+
+  &__testimony {
+
+    padding: 0 0 5rem;
+
+    .testimonybox {
+
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      width: 80%;
+
+      .testimony {
+
+        &__boxicon {
+
+          width: 20%;
+
+          @media only screen and (max-width: 1024px) {
+
+            padding: 0 2rem 0 0;
+          }
+        }
+
+        &__boxtext {
+
+          width: 56%;
+
+          .testimonytext {
+
+            color: #999999;
+            font-size: 24px;
+            font-style: italic;
+            line-height: 1.5;
+
+            @media only screen and (max-width: 1024px) {
+
+              font-size: 18px;
+            }
+          }
+
+          .testimonyline {
+
+            padding: 1rem 0 0 0;
+            .line {
+
+              background: #f38181;
+              height: 3px;
+              margin: .5rem .8rem 0 0;
+              width: 60px;
+            }
+
+            .block {
+
+              display: inline-block;
+              vertical-align: middle;
+            }
+
+            .linetext {
+
+              font-size: 24px;
+              color: #333333;
+              font-family: 'Kaushan Script', cursive;
+            }
+          }
+        }
+      }
+    }
+
+    .contentcarrousel{
+
+      button.slick-prev {
+
+        z-index: 999;
+        background-image: url(../images/icon-crr_previous.png);
+        background-repeat: no-repeat;
+
+        &::before {
+
+          display: none;
+        }
+      }
+
+      button.slick-next {
+
+        background-image: url(../images/icon-crr_next.png);
+        background-repeat: no-repeat;
+
+        &::before {
+
+          display: none;
+        }
+      }
+    }
+  }
+}

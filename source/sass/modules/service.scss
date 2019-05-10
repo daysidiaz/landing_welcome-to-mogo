@@ -1,0 +1,159 @@
+.mogo {
+
+  &__service {
+
+    padding: 5rem 0;
+
+    .service {
+
+      &__content {
+
+        text-align: center;
+
+        .titleservice {
+
+          color: #333333;
+          font-family: 'Kaushan Script', cursive;
+          font-size: 24px;
+        }
+
+        .textservice {
+
+          color: #333333;
+          font-size: 30px;
+          font-weight: 900;
+          text-transform: uppercase;
+        }
+
+        .linedesingn {
+
+          background: #f38181;
+          height: 3px;
+          margin: 0 auto;
+          margin-top: 2rem;
+          margin-bottom: 2rem;
+          width: 60px;
+        }
+
+        .textinformation {
+
+          color: #999999;
+          font-size: 15px;
+          margin: 0 auto;
+          max-width: 960px;
+          width: 100%;
+
+          @media only screen and (max-width: 370px) {
+
+            width: 85%;
+          }
+        }
+      }
+
+      &__accordion {
+
+        align-items: flex-start;
+        display: flex;
+        justify-content: space-between;
+        padding: 3rem 0;
+
+        @media only screen and (max-width: 768px) {
+
+          display: block;
+          width: 74%;
+          margin: 0 auto;
+        }
+
+        @media only screen and (max-width: 370px) {
+
+          width: 90%;
+        }
+
+        .accordion {
+
+          width: 50%;
+
+          @media only screen and (max-width: 1024px) {
+
+            width: 49%;
+          }
+
+          @media only screen and (max-width: 768px) {
+
+            width: 100%;
+          }
+
+          &__item {
+
+            margin-bottom: 10px;
+          }
+        }
+
+        .accordion-header {
+
+          align-items: center;
+          border: 1px #e5e5e5 solid;
+          color: #333333;
+          display: flex;
+          font-size: 14px;
+          font-weight: 900;
+          justify-content: flex-start;
+          text-transform: uppercase;
+          padding: .8pc 0;
+
+          @media only screen and (max-width: 1024px) {
+
+            padding: 10.5px 0;
+          }
+
+          .accordion-icon {
+
+            padding: 0 1pc 0;
+          }
+        }
+
+        .accordion-body {
+
+
+            border: 1px #e5e5e5 solid;
+
+          &__contents {
+
+            background: transparent;
+            border-top: transparent;
+            color: #999999;
+            font-size: 15px;
+            font-style: italic;
+            height: 134px;
+            line-height: 1.5;
+            margin: 24px;
+            overflow-y: auto;
+            padding: 0 24px 0 0;
+
+            @media only screen and (max-width: 1024px) {
+
+              height: 90px;
+            }
+
+            &::-webkit-scrollbar {
+
+              border-radius: 10px;
+              background-color: #f5f5f5;
+              width: 5px;
+            }
+            // &::-webkit-scrollbar-track {
+
+            //   background-color: red;
+            // }
+            &::-webkit-scrollbar-thumb {
+
+              background-color: #95e1d3;
+              border-radius: 10px;
+              outline: 10px solid transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+}

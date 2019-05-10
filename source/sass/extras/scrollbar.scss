@@ -1,0 +1,35 @@
+@import "../globals/variables";
+
+/* https://css-tricks.com/custom-scrollbars-in-webkit/ */
+html,
+body,
+#mogo {
+
+  &::-webkit-scrollbar {
+
+    background-color: #e98283;
+    border-left: 1px solid #e98283;
+    width: 12.5px;
+
+    @media only screen and (max-width: 1024px) {
+
+      background-color: transparent;
+      border: 0;
+      width: 0;
+    }
+  }
+}
+
+
+::-webkit-scrollbar-thumb {
+
+  background-color: #ecd589;
+  /* border-radius: 16px; */
+  outline: 10px solid transparent;
+
+  @media only screen and (max-width: 1024px) {
+
+    background-color: transparent;
+    outline: 0;
+  }
+}

@@ -1,0 +1,105 @@
+.mogo {
+
+  &__teamcarrousel {
+
+    background: #f8f8f8;
+    padding: 5rem 0;
+
+    @media only screen and (max-width: 1024px) {
+
+      padding: 3rem 0;
+    }
+
+    .teambox {
+
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      width: 80%;
+
+      .team {
+
+        &__boxicon {
+
+          width: 20%;
+
+          @media only screen and (max-width: 1024px) {
+
+            width: 17%;
+            padding: 0 35px 0 0;
+          }
+        }
+
+        &__boxtext {
+
+          width: 56%;
+
+          .teamtext {
+
+            color: #999999;
+            font-size: 24px;
+            font-style: italic;
+            line-height: 1.5;
+
+            @media only screen and (max-width: 1024px) {
+
+              font-size: 18px;
+            }
+          }
+
+          .teamline {
+
+            padding: 1rem 0 0 0;
+            .line {
+
+              background: #f38181;
+              height: 3px;
+              margin: .5rem .8rem 0 0;
+              width: 60px;
+            }
+
+            .block {
+
+              display: inline-block;
+              vertical-align: middle;
+            }
+
+            .linetext {
+
+              font-size: 24px;
+              color: #333333;
+              font-family: 'Kaushan Script', cursive;
+            }
+          }
+        }
+      }
+    }
+
+    .contentcarrousel{
+
+      button.slick-prev {
+
+        z-index: 999;
+        background-image: url(../images/icon-crr_previous-sms.png);
+        background-repeat: no-repeat;
+
+        &::before {
+
+          display: none;
+        }
+      }
+
+      button.slick-next {
+
+        background-image: url(../images/icon-crr_next-sms.png);
+        background-repeat: no-repeat;
+
+        &::before {
+
+          display: none;
+        }
+      }
+    }
+  }
+}

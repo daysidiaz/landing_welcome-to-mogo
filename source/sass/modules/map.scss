@@ -1,0 +1,48 @@
+.mogo {
+
+  &__map {
+
+    background-image: url("../images/bg-maps.jpg");
+    background-repeat: no-repeat;
+    // background-size: cover;
+  }
+
+  &__title {
+
+    padding: 2.4rem 0;
+    text-align: center;
+
+    &__container {
+
+      padding: 5rem 0;
+    }
+
+    .titlemap {
+
+      color: #f38181;
+      font-size: 25px;
+      font-weight: 900;
+      text-transform: uppercase;
+      padding: 20px 0;
+    }
+
+    .linemap {
+
+      background-color: #f38181;
+      height: 3px;
+      margin: 0 auto;
+      width: 60px;
+    }
+
+    .btnlink {
+
+      cursor: pointer;
+    }
+
+    i {
+
+      color: #f38181;
+      font-size: 35px;
+    }
+  }
+}

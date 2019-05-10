@@ -1,0 +1,151 @@
+.mogo {
+
+  &__clients {
+
+    background-image: url("../images/bg-clients-2.jpg");
+    padding: 5rem 0;
+
+    @media only screen and (max-width: 1024px) {
+      background-repeat: no-repeat;
+      background-color: #e2e2e2;
+    }
+
+    @media only screen and (max-width: 370px) {
+
+      padding: 2rem 0 4rem;
+    }
+  }
+
+  &__title {
+
+    text-align: center;
+
+    &__container {
+
+      padding: 5rem 0;
+    }
+
+    .titleclients {
+
+      color: #000;
+      font-family: 'Kaushan Script', cursive;
+      font-size: 25px;
+    }
+
+    .textclients {
+
+      color: #000;
+      font-size: 30px;
+      font-weight: 900;
+      padding: 1rem 0 3rem;
+      text-transform: uppercase;
+
+      @media only screen and (max-width: 370px) {
+
+        font-size: 25px;
+      }
+    }
+
+    .lineclients {
+
+      background-color: #f38181;
+      height: 3px;
+      margin: 0 auto;
+      width: 60px;
+    }
+  }
+
+  &__description {
+
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
+    @media only screen and (max-width: 370px) {
+
+      display: block;
+    }
+
+    .boxclients {
+
+      @media only screen and (max-width: 1024px) {
+
+        width: 40%;
+      }
+
+      @media only screen and (max-width: 370px) {
+
+        width: 90%;
+        margin: 0 auto;
+      }
+    }
+
+    .contentclient {
+
+      padding: 4rem 0 0;
+
+      .photo {
+
+        width: 20%;
+
+        @media only screen and (max-width: 1024px) {
+
+          width: 26%;
+        }
+      }
+
+      .inblock {
+
+        display: inline-block;
+        vertical-align: top;
+      }
+
+      .information {
+
+        width: 80%;
+        padding: 0 0 0 1rem;
+
+        @media only screen and (max-width: 1024px) {
+
+          width: 74%;
+        }
+      }
+
+      .title {
+
+        color: #333333;
+        font-size: 14px;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
+
+      .ocupation {
+
+        color: #333333;
+        font-size: 15px;
+        font-style: italic;
+        padding: 18px 0;
+      }
+
+      .line {
+
+        background-color: #f38181;
+        height: 3px;
+        width: 60px;
+      }
+
+      .text {
+
+        color: #999999;
+        font-size: 15px;
+        line-height: 1.5;
+        padding: 20px 5rem 0 0;
+
+        @media only screen and (max-width: 1024px) {
+
+          padding: 20px 0 0 0;
+        }
+      }
+    }
+  }
+}
