@@ -28,6 +28,11 @@
       font-weight: 900;
       padding: 1rem 0 3rem;
       text-transform: uppercase;
+
+      @media only screen and (max-width: 370px) {
+
+        font-size: 25px;
+      }
     }
 
     .lineus {
@@ -59,6 +64,11 @@
         display: block;
         width: 86%;
         margin: 0 auto;
+      }
+
+      @media only screen and (max-width: 370px) {
+
+        padding: 0 0 2rem;
       }
 
       .teambox {

@@ -23,6 +23,11 @@
           font-size: 30px;
           font-weight: 900;
           text-transform: uppercase;
+
+          @media only screen and (max-width: 370px) {
+
+            font-size: 25px;
+          }
         }
 
         .linedesingn {
