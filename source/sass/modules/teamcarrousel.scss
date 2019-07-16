@@ -18,6 +18,11 @@
       margin: 0 auto;
       width: 80%;
 
+      @media only screen and (max-width: 480px) {
+
+        display: block;
+      }
+
       .team {
 
         &__boxicon {
@@ -26,14 +31,28 @@
 
           @media only screen and (max-width: 1024px) {
 
-            width: 17%;
             padding: 0 35px 0 0;
+            width: 17%;
+          }
+
+          @media only screen and (max-width: 480px) {
+
+            margin: 0 auto;
+            padding: 0 0 30px;
+            width: 25%;
           }
         }
 
         &__boxtext {
 
           width: 56%;
+
+          @media only screen and (max-width: 480px) {
+
+            margin: 0 auto;
+            text-align: center;
+            width: 70%;
+          }
 
           .teamtext {
 

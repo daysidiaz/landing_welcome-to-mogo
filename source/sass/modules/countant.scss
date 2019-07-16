@@ -14,7 +14,7 @@
       justify-content: space-between;
       text-align: center;
 
-      @media only screen and (max-width: 370px) {
+      @media only screen and (max-width: 480px) {
 
         display: block;
         margin: 0 auto;
@@ -43,9 +43,9 @@
       padding: 5rem 0;
       width: 100%;
 
-      @media only screen and (max-width: 370px) {
+      @media only screen and (max-width: 480px) {
 
-        padding: 2rem 0;
+        max-width: 312px;
         border-bottom: 1px solid #ffffff52;
       }
 
@@ -54,7 +54,7 @@
         border-left: 1px solid #ffffff52;
         border-right: 1px solid #ffffff52;
 
-        @media only screen and (max-width: 370px) {
+        @media only screen and (max-width: 480px) {
 
           border-left: none;
           border-right: none;

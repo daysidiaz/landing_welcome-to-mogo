@@ -14,6 +14,11 @@
       height: 800px;
     }
 
+    @media only screen and (max-width: 480px) {
+
+      height: 700px;
+    }
+
     @media only screen and (max-width: 370px) {
 
       height: 600px;
@@ -49,6 +54,11 @@
         font-family: 'Kaushan Script', cursive;
         padding: 0 0 15px;
 
+        @media only screen and (max-width: 480px) {
+
+          font-size: 46px;
+        }
+
         @media only screen and (max-width: 370px) {
 
           font-size: 34px;
@@ -77,6 +87,11 @@
         @media only screen and (max-width: 768px) {
 
           font-size: 100px;
+        }
+
+        @media only screen and (max-width: 480px) {
+
+          font-size: 66px;
         }
 
         @media only screen and (max-width: 370px) {

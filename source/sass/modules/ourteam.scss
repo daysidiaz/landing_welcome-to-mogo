@@ -24,7 +24,7 @@
       padding: 1rem 0 3rem;
       text-transform: uppercase;
 
-      @media only screen and (max-width: 370px) {
+      @media only screen and (max-width: 480px) {
 
         font-size: 25px;
       }
@@ -59,17 +59,22 @@
         justify-content: space-around;
       }
 
-      @media only screen and (max-width: 370px) {
+      @media only screen and (max-width: 480px) {
 
         display: block;
         margin: 0 auto;
         padding: 0 0 2rem;
+        width: 48%;
+      }
+
+      @media only screen and (max-width: 480px) {
+
         width: 65%;
       }
 
       .boxcontent {
 
-        @media only screen and (max-width: 370px) {
+        @media only screen and (max-width: 480px) {
 
           padding: 0 0 40px;
         }
@@ -90,6 +95,13 @@
         @media only screen and (max-width: 768px) {
 
           max-width: 230px;
+        }
+
+
+
+        @media only screen and (max-width: 480px) {
+
+          max-width: 316px;
         }
 
         .imagesbox {

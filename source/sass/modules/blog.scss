@@ -60,12 +60,17 @@
         justify-content: space-around;
       }
 
-      @media only screen and (max-width: 370px) {
+      @media only screen and (max-width: 480px) {
 
         display: block;
         margin: 0 auto;
-        width: 80%;
+        width: 62%;
         padding: 0;
+      }
+
+      @media only screen and (max-width: 370px) {
+
+        width: 80%;
       }
 
       .contentbox {
